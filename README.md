@@ -2,6 +2,7 @@
 This is a reproduction repo to show the issues with autohooks and dirNameRoutePrefix
 
 ## Test
+`npm install`
 
 ### Global false value (Issue)
 `npm start:global`
