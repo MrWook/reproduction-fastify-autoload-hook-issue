@@ -10,7 +10,8 @@
   "scripts": {
     "start:global": "node src/serverFalse.mjs",
     "start:conditional": "node src/serverFunctionFalse.mjs",
-    "start:granular": "node src/serverFunctionOneFalse.mjs"
+    "start:granular": "node src/serverFunctionOneFalse.mjs",
+    "start:withoutCascade": "node src/serverWithoutCascade.mjs"
   },
   "dependencies": {
     "@fastify/autoload": "6.1.0",

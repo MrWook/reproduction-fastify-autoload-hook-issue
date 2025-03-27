@@ -49,3 +49,19 @@ curl http://localhost:3003/second/fourth/fourth
 curl http://localhost:3003/global
 ```
 
+
+### Global false value (Issue) Without cascade
+`npm start:withoutCascade`
+
+```
+curl http://localhost:3004/first
+
+curl http://localhost:3004/second/second
+
+curl http://localhost:3004/yellow-submarine/third
+
+curl http://localhost:3004/second/fourth/fourth
+
+curl http://localhost:3004/global
+```
+
